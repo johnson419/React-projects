@@ -60,7 +60,7 @@
 
 .gpt3__whatgpt3-container {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-direction: row;
     margin-top: 2rem;
 }
@@ -80,6 +80,7 @@
 .gpt3__features-container__feature{
     display: flex;
     flex-direction: column;
+    width: inherit;
 }
 
  @media screen and (max-width: 850px) {
@@ -91,6 +92,9 @@
 
     .gpt3__whatgpt3-heading p {
         margin-top: 1rem;
+    }
+    .gpt3__whatgpt3-container{
+        flex-direction: column;
     }
  } 
 
@@ -113,6 +117,6 @@
 @media screen and (max-width: 350px) {
     .gpt3__whatgpt3-container .gpt3__features-container_feature {
         margin: 1rem 0;
-        min-width: 100%;
+        min-width: 100%; 
     }
 } 

@@ -13,16 +13,9 @@ const whatGPT3 = () => {
         <p>Explore the Library</p>
       </div>
       <div className='gpt3__whatgpt3-container'>
-        <div className='gpt3__whatgpt3-container__feature'>
         <Feature title='Chatbots' text='We so opinion friends me message as delight. Whole front do of plate heard oh ought.'/>
-        </div>
-        <div className='gpt3__whatgpt3-container__feature'>
         <Feature title='Knowledgebase' text='At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments'/>
-        </div>
-        <div className='gpt3__whatgpt3-container__feature'>
-        <Feature title='Education' text='At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments'/>
-
-        </div>
+        <Feature title='Education' text='At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments'/>      
       </div>
     </div>
   );
